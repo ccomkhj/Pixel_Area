@@ -79,7 +79,7 @@ def compute_pixel_ratio(radius: float, ACTUAL_DIM: float) -> float:
     return round(ratio, 4)
 
 
-def update_meta(img_name: str, ratio: float, meta_loc: str, separator="-"):
+def update_meta(img_name: str, ratio: float, meta_loc: str, separator):
 
     if meta_loc:
         """ If no meta data, create a new one. """
@@ -138,6 +138,7 @@ if __name__ == "__main__":
 
     default_par1 = 200
     default_par2 = 30
+    SEPARATOR = "-"
     ACTUAL_DIM = 16  # unit: cm, actual
 
     logger.info(f"{len(images)}images will be processed.")
@@ -154,6 +155,6 @@ if __name__ == "__main__":
             continue 
 
         ratio = compute_pixel_ratio(radius, ACTUAL_DIM)
-        update_meta(img, ratio, args.meta)
+        update_meta(img, ratio, args.meta, SEPARATOR)
 
     logger.info("Work Complete!.")
