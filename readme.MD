@@ -13,7 +13,7 @@ Hough transformation algorithm searches for known size of circles. `ACTUAL_DIM` 
 
 <div align="left">
     <img src = "demo/pixelratio_fit.png" width="700"/>
-    <figcaption align = "left"><b>Fig.1 - Fitting circles </b></figcaption>
+    <figcaption><b>Fig.1 - Fitting circles </b></figcaption>
 </div>
 <br />
 
@@ -21,6 +21,6 @@ In case no appropriate representative circles, the image is skipped.
 
 <div align="left">
     <img src = "demo/pixelratio_notfit.png" width="400"/>
-    <figcaption align = "left"><b>Fig.2 - Fail case </b></figcaption>
+    <figcaption><b>Fig.2 - Fail case </b></figcaption>
 </div>
 <br />
