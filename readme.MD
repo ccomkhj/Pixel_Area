@@ -11,16 +11,16 @@ By default, separator is `-`, but you can change it in `SEPARATOR`
 
 Hough transformation algorithm searches for known size of circles. `ACTUAL_DIM` (diameter of circle, unit: cm)
 
-<div align="left">
+<div align="center">
     <img src = "demo/pixelratio_fit.png" width="700"/>
-    <figcaption><b>Fig.1 - Fitting circles </b></figcaption>
+    <figcaption align = "center"><b>Fig.1 - Fitting circles </b></figcaption>
 </div>
 <br />
 
 In case no appropriate representative circles, the image is skipped.
 
-<div align="left">
+<div align="center">
     <img src = "demo/pixelratio_notfit.png" width="400"/>
-    <figcaption><b>Fig.2 - Fail case </b></figcaption>
+    <figcaption align = "center"><b>Fig.2 - Fail case </b></figcaption>
 </div>
 <br />
